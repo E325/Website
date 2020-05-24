@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial;
+ 
+}
+
+.header {
+  text-align: center;
+  padding: 32px;
+}
+
+.row {
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE10 */
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+/* Create four equal columns that sits next to each other */
+.column {
+  -ms-flex:40%; /* IE10 */
+  flex:40%;
+  max-width:40%;
+  padding: 0 4px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px) {
+  .column {
+    -ms-flex: 80%;
+    flex: 80%;
+    max-width: 80%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    -ms-flex: 100%;
+    flex: 100%;
+    max-width: 100%;
+  }
+}
+</style>
+<body>
+
+
+
+
+<div class="row"> 
+  <div class="column">
+    <img src="Galata.webp" style="width:100%">
+    <img src="Cappadocia.jpg" style="width:100%">
+    <img src="Santorini.jpg" style="width:100%">
+    <img src="Antalya.jpg" style="width:100%">
+    <img src="Turkey.jpg" style="width:100%">
+    <img src="Albania.jpg" style="width:100%">
+    <img src="albania-.jpg" style="width:100%">
+  </div>
+  <div class="column">
+    <img src="Shqiperia.jpg" style="width:100%">
+    <img src="Ksamil.jpg" style="width:100%">
+    <img src="Ksamil-.jpg" style="width:100%">
+    <img src="shutterstock.jpg" style="width:100%">
+    <img src="Montenegro.jpg" style="width:100%">
+    <img src="montenegro1.jpg" style="width:100%">
+  </div>  
+
+</div>
+
+</body>
+</html>
